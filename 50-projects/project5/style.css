@@ -1,0 +1,31 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('https://lh3.googleusercontent.com/KnNgcZve94WGGYmVT9Ex_obhBX2dLAJikvLSqpsWGK8xZh-_OJD9VHen07wmD0zCeLHzK9pnpM8fSafz1dmNpO0NDw=w640-h400-e365-rj-sc0x00ffffff') no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: black;
+}
